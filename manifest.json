@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "action": {},
+  "name": "mangasee123 sbs viewer",
+  "version": "0.1",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["https://mangasee123.com/read-online/*"]
+    }
+  ]
+}
