@@ -1,6 +1,6 @@
-# about
+# pretty web manga
 
-chrome extension for forcing book-style reading of manga on mangasee123
+chrome extension for forcing book-style reading of manga on **mangasee123**
 
 ## install
 
